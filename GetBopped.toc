@@ -1,0 +1,7 @@
+## Interface: 90100
+## Title: Get Bopped
+## Author: Gerbo-Perenolde
+## Version: 0.1
+## Notes: Notifies the user of being bopped (Blessing of Protection).
+
+GetBopped.lua
