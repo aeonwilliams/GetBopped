@@ -28,7 +28,7 @@ frame:SetScript("OnEvent", function(self, event, ...)
   -- check "all" possible player buffs
   for i = 1, 40 do -- for every magic number, a puppy dies
     local buff = UnitBuff("player", i)
-    if buff == "Well Fed" then
+    if buff == "Blessing of Protection" then
       if found ~= true then
         text_frame:Show()
         PlaySoundFile(567397) -- raid warning
